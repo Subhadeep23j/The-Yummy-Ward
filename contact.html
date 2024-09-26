@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+	<link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Assets/photos/restaurant-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <img id="restaurant-logo" src="Assets/photos/restaurant-logo.jpg" alt="">
+        
+        <ul class="navbar-links">
+            <li><a href="index.html">Home</a></li>
+            <li><i class="fa-solid fa-utensils" style="color: #fafafa; cursor: pointer;"></i><a href="menu.html"> Menu</a></li>
+            <li><a href="about.html"> About Us</a></li>
+            <li><i class="fa-solid fa-bell-concierge" style="color: #fafafa; cursor: pointer;"></i><a href="service.html"> Services</a></li>
+            <li><i class="fa-solid fa-address-book" style="color: #ffffff; cursor: pointer;"></i><a href="contact.html"> Contact Us</a></li>
+            <li><i class="fa-solid fa-user" style="color: #fafafa; cursor: pointer;"></i><a href="login.html"> Login</a></li>
+        </ul>
+    </div>
+        <div class="about-banner" style="background-image: url(Assets/photos/about-background.jpg);">
+            <div class="text">
+                <h1 id="name">
+                    Wellcome back to <span>The Yummy Yard</span><br>
+                    <h6 id="hastag">
+                        #<span style="color: orange;">IN</span><span style="color: white;">D</span><span style="color: green;">IA</span>'s_No1
+                    </h6>
+                </h1>
+                <h1 style="text-align: center;">Contact Us</h1>
+            </div>
+        </div>
+        <section class="contact-form-section">
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41916.28151857604!2d87.73919593495765!3d21.783710581021662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0326f87e6e8479%3A0xb610eefe9d9387c1!2sContai%20College%20of%20Learning%20%26%20Management%20Science!5e0!3m2!1sen!2sin!4v1720799598691!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="contact-form" action="/submit" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Experience culinary excellence at The Yummy Yard, where we offer a blend of traditional flavors and modern cuisine in a luxurious setting.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Reservations</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Beta Bus Stand, Egra Patna, Contai</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: contact@Theyummyyard.com</p>
+                <p>Opening Hours: Mon-Sun: 11:00 AM - 11:00 PM</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><img src="Assets/photos/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="Assets/photos/Instagram.webp" alt="Instagram"></a>
+                    <a href="#"><img src="Assets/photos/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="Assets/photos/WhatsApp.webp" alt="WhatsApp"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 The Yummy Yard. All Rights Reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
